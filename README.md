@@ -39,6 +39,8 @@ The New York City Hall, of which we are part of its Data team, has identified a 
 - Run this command to authenticate yourself with your GCP account (only locally).
 
 ```
+    gcloud init
+    gcloud auth login
     gcloud auth application-default login
 ```
 
@@ -204,3 +206,5 @@ gcloud services disable cloudbuild.googleapis.com
 - [Apache Beam ML](https://beam.apache.org/documentation/ml/about-ml/)
 
 - [Dataflow Flex Templates](https://cloud.google.com/dataflow/docs/guides/templates/using-flex-templates)
+
+- [Dataflow Practical Exercises Guide](https://cloud.google.com/dataflow/docs/guides/)
