@@ -204,3 +204,5 @@ gcloud services disable cloudbuild.googleapis.com
 - [Apache Beam ML](https://beam.apache.org/documentation/ml/about-ml/)
 
 - [Dataflow Flex Templates](https://cloud.google.com/dataflow/docs/guides/templates/using-flex-templates)
+
+- [Dataflow Practical Exercises Guide](https://cloud.google.com/dataflow/docs/guides/)
