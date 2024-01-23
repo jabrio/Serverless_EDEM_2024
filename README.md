@@ -39,6 +39,8 @@ The New York City Hall, of which we are part of its Data team, has identified a 
 - Run this command to authenticate yourself with your GCP account (only locally).
 
 ```
+    gcloud init
+    gcloud auth login
     gcloud auth application-default login
 ```
 
