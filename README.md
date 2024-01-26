@@ -53,7 +53,7 @@ gcloud services enable vision.googleapis.com
 gcloud services enable cloudbuild.googleapis.com
 ```
 
-- Create Python environment (Windows)
+- Create Python environment (Windows - Using CMD terminal)
 ```
 python -m venv <ENVIRONTMENT_NAME>
 <ENVIRONMENT_NAME>\Scripts\activate.bat
