@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/pablomartinomdedeu/Desktop/EDEM Master/GitHub/MDATAPROJECT2/Serverless_EDEM_2024/02_Code/test/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from rsa.cli import decrypt
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(decrypt())
